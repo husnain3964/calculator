@@ -1,0 +1,183 @@
+* {
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0%;
+}
+abbr{
+    text-decoration: none;
+    
+}
+/* #equal , #clc{
+    width: 46%;
+} */
+h1 {
+    letter-spacing: 15px;
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    color:hsl(196 46% 22% / 1);
+    animation: trans infinite ease-in-out ;
+
+}
+
+
+@keyframes trans {
+    
+       
+}
+
+.main {
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.container {
+    width: 30%;
+    padding: 5px;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: rgb(45, 45, 45);
+
+}
+
+.row {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    height: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+.btn {
+    width: 100px;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 30px;
+    background-color: hsl(196 46% 22% / 1);
+    color: white;
+    border: none;
+    box-shadow: 1px 1px 1px 1px rgb(90, 87, 87);
+}
+
+
+
+input {
+    width: 93%;
+    height: 80px;
+    font-size: 25px;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+    background-color: #5b5b5b;
+    box-shadow: 2px 2px 2px 1px hsl(195, 40%, 35%)
+}
+
+button:active {
+    background-color: hsl(196, 38%, 18%);
+    ;
+    font-size: 35px;
+    padding: 1px;
+}
+
+
+
+
+@media screen and (max-width:500px) {
+
+
+    button:active {
+        background-color: hsl(196, 38%, 18%);
+       font-size: 20px;
+    }
+
+    .container {
+        width: 100%;
+        padding: 3px;
+        border: 1px solid black;
+        border-radius: 2px;
+        background-color: rgb(45, 45, 45);
+
+    }
+    h1 {
+        letter-spacing: 1px;
+        font-size: 30px;
+        
+    }
+
+    .row {
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        height: auto;
+        margin-top: 10px;
+        margin-bottom: 10px;
+
+    }
+
+    .btn {
+        width: 100px;
+        padding: 10px;
+        border-radius: 5px;
+        font-size: 30px;
+        background-color: hsl(196 46% 22% / 1);
+        color: white;
+        border: none;
+    }
+
+
+
+}
+
+
+
+
+
+
+@media screen and (max-width:400px) {
+
+
+    h1 {
+        letter-spacing: 1px;
+        font-size: 25px;
+        
+    }
+
+    .row {
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        height: auto;
+        margin-top: 10px;
+        margin-bottom: 10px;
+
+    }
+    
+button:active {
+    background-color: hsl(196, 38%, 18%);
+    ;
+    font-size: 20px;
+ 
+}
+
+    .btn {
+        width: 70px;
+        padding: 5px;
+        border-radius: 2px;
+        font-size: 20px;
+        background-color: hsl(196 46% 22% / 1);
+        color: white;
+        border: none;
+    }
+
+
+
+}
